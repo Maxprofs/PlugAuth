@@ -27,6 +27,7 @@ lib/PlugAuth.pm
 lib/PlugAuth/Guide/Client.pod
 lib/PlugAuth/Guide/Plugin.pod
 lib/PlugAuth/Guide/Server.pod
+lib/PlugAuth/Plugin/DisableGroup.pm
 lib/PlugAuth/Plugin/FlatAuth.pm
 lib/PlugAuth/Plugin/FlatAuthz.pm
 lib/PlugAuth/Plugin/FlatUserList.pm
@@ -42,6 +43,7 @@ lib/Test/PlugAuth/Plugin.pm
 lib/Test/PlugAuth/Plugin/Auth.pm
 lib/Test/PlugAuth/Plugin/Authz.pm
 lib/Test/PlugAuth/Plugin/Refresh.pm
+t/00-use.t
 t/01-auth.t
 t/02-authz.t
 t/03-user.t
@@ -67,6 +69,7 @@ t/24-authz_no_autovivification.t
 t/25-case_insensitive.t
 t/26-authz-slash.t
 t/27-new_line.t
+t/28-create_user_with_groups.t
 t/data/01/group.txt
 t/data/01/host.txt
 t/data/01/more_users.txt
@@ -156,9 +159,11 @@ t/plug_flatauthz_refresh.t
 t/plug_test_auth.t
 t/plug_test_authz.t
 t/plug_test_refresh.t
+t/plugin_disable_group.t
+t/plugin_disable_group2.t
+t/plugin_disable_group3.t
 t/plugins.t
 t/selfauth.t
-t/use.t
 xt/release/build_environment.t
 xt/release/changes.t
 xt/release/eol.t

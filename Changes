@@ -1,5 +1,20 @@
 Revision history for PlugAuth
 
+0.21      2013-07-19 16:19:45 America/New_York
+  - promote to production
+
+0.20_04   2013-07-19 11:14:19 America/New_York
+  - allow create_user_cb to work even when implemented by a auth plugin NOT on the head
+
+0.20_03   2013-07-19 09:20:15 America/New_York
+  - added ability to assign groups to a user when user is created
+
+0.20_02   2013-07-17 18:57:08 America/New_York
+  - add disable_on_create option for DisableGroup Plugin
+
+0.20_01   2013-07-17 15:49:31 America/New_York
+  - add DisableGroup Plugin
+
 0.20      2013-06-30 19:13:35 America/New_York
   - fix examples
   - use YAML::XS instead of YAML, since Clustericious requires YAML::XS (but not YAML)
