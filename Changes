@@ -1,6 +1,8 @@
 Revision history for PlugAuth
 
-0.26      2014-04-09 12:30:53 America/New_York
+0.27      2014-12-09 10:24:00 America/New_York
+  - use functional Mojo::JSON API
+    the OO version was deprecated
 
 0.26      2014-04-09 12:28:19 America/New_York
   - remove harness detection from test code
