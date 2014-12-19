@@ -1,5 +1,5 @@
-.travis.yml
 Changes
+INSTALL
 LICENSE
 MANIFEST
 META.json
@@ -7,6 +7,8 @@ META.yml
 Makefile.PL
 README
 bin/plugauth
+bin/plugauthclient
+bin/plugauthpasswd
 dist.ini
 etc/PlugAuth.conf
 etc/PlugAuth.conf.too
@@ -25,9 +27,11 @@ example/plugin/t/plug_exampleauth_auth.t
 example/plugin/t/plug_exampleroute.t
 lib/Clustericious/Plugin/SelfPlugAuth.pm
 lib/PlugAuth.pm
+lib/PlugAuth/Client.pm
 lib/PlugAuth/Guide/Client.pod
 lib/PlugAuth/Guide/Plugin.pod
 lib/PlugAuth/Guide/Server.pod
+lib/PlugAuth/Plugin/Audit.pm
 lib/PlugAuth/Plugin/DisableGroup.pm
 lib/PlugAuth/Plugin/FlatAuth.pm
 lib/PlugAuth/Plugin/FlatAuthz.pm
@@ -75,6 +79,9 @@ t/25-case_insensitive.t
 t/26-authz-slash.t
 t/27-new_line.t
 t/28-create_user_with_groups.t
+t/client_01-get.t
+t/client_10-remove_prefixes.t
+t/client_create_user_with_groups.t
 t/data/01/group.txt
 t/data/01/host.txt
 t/data/01/more_users.txt
@@ -157,6 +164,7 @@ t/data/27/resource.txt
 t/data/27/user.txt
 t/etc/PlugAuth.conf
 t/etc/setup.pl
+t/plug_audit.t
 t/plug_flatauth_auth.t
 t/plug_flatauth_refresh.t
 t/plug_flatauthz_authz.t

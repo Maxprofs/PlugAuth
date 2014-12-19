@@ -1,7 +1,7 @@
 package PlugAuth::Plugin::FlatAuth;
 
 # ABSTRACT: Authentication using Flat Files for PlugAuth
-our $VERSION = '0.27'; # VERSION
+our $VERSION = '0.28'; # VERSION
 
 
 use strict;
@@ -251,7 +251,7 @@ PlugAuth::Plugin::FlatAuth - Authentication using Flat Files for PlugAuth
 
 =head1 VERSION
 
-version 0.27
+version 0.28
 
 =head1 SYNOPSIS
 
@@ -335,6 +335,8 @@ Delete the given user.
 =head1 SEE ALSO
 
 L<PlugAuth>, L<PlugAuth::Plugin::FlatAuthz>
+
+=cut
 
 =head1 AUTHOR
 

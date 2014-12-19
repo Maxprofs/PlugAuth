@@ -1,9 +1,11 @@
 Class::Method::Modifiers
 Clone
 Clustericious
+Clustericious::Client
 Clustericious::Config
 Clustericious::Log
 Crypt::PasswdMD5
+DateTime
 EV
 Exporter
 ExtUtils::MakeMaker
@@ -18,8 +20,12 @@ FindBin
 IO::File
 List::MoreUtils
 Log::Log4perl
+Log::Log4perl::CommandLine
 Mojolicious
+Path::Class::Dir
+Path::Class::File
 Role::Tiny
+Term::Prompt
 Test::Builder
 Test::Clustericious::Cluster
 Test::Clustericious::Config

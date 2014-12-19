@@ -3,12 +3,11 @@ abstract: 'Pluggable authentication and authorization server.'
 author:
   - 'Graham Ollis <gollis@sesda3.com>'
 build_requires:
-  File::HomeDir: '0'
   Test::Clustericious::Cluster: '0.08'
   Test::Clustericious::Config: '0'
   Test::Clustericious::Log: '0'
   Test::Differences: '0'
-  Test::More: '0'
+  Test::More: '0.94'
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
 dynamic_config: 0
@@ -24,11 +23,14 @@ requires:
   Class::Method::Modifiers: '0'
   Clone: '0'
   Clustericious: '0.9936'
+  Clustericious::Client: '0'
   Clustericious::Config: '0.25'
   Clustericious::Log: '0.14'
   Crypt::PasswdMD5: '0'
+  DateTime: '0'
   Exporter: '0'
   Fcntl: '0'
+  File::HomeDir: '0.91'
   File::HomeDir::Test: '0'
   File::Spec: '0'
   File::Temp: '0'
@@ -38,15 +40,19 @@ requires:
   IO::File: '0'
   List::MoreUtils: '0'
   Log::Log4perl: '0'
+  Log::Log4perl::CommandLine: '0'
   Mojolicious: '4.82'
-  Role::Tiny: '0'
+  Path::Class::Dir: '0'
+  Path::Class::File: '0'
+  Role::Tiny: '1.003001'
+  Term::Prompt: '0'
   Test::Builder: '0'
   Text::Glob: '0'
   YAML::XS: '0'
   autodie: '0'
   perl: v5.10.0
 resources:
-  bugtracker: https://github.com/plicease/plugauth/issues
-  homepage: http://perl.wdlabs.com/PlugAuth/
-  repository: git://github.com/plicease/plugauth.git
-version: '0.27'
+  bugtracker: https://github.com/plicease/PlugAuth/issues
+  homepage: http://perl.wdlabs.com/PlugAuth
+  repository: git://github.com/plicease/PlugAuth.git
+version: '0.28'

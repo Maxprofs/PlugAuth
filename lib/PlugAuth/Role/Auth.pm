@@ -5,7 +5,7 @@ use warnings;
 use Role::Tiny;
 
 # ABSTRACT: Role for PlugAuth authentication plugins
-our $VERSION = '0.27'; # VERSION
+our $VERSION = '0.28'; # VERSION
 
 
 requires qw( check_credentials );
@@ -82,7 +82,7 @@ PlugAuth::Role::Auth - Role for PlugAuth authentication plugins
 
 =head1 VERSION
 
-version 0.27
+version 0.28
 
 =head1 SYNOPSIS
 
@@ -169,6 +169,8 @@ authentication has failed if your plugin is not authoritative.
 L<PlugAuth>,
 L<PlugAuth::Guide::Plugin>,
 L<Test::PlugAuth::Plugin::Auth>
+
+=cut
 
 =head1 AUTHOR
 

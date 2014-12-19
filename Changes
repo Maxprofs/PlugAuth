@@ -1,5 +1,9 @@
 Revision history for PlugAuth
 
+0.28      2014-12-19 11:38:00 -0500
+  - Merge PlugAuth::Plugin::Audit into this distro.
+  - Merge PlugAuth::Client distro into this distro.
+
 0.27      2014-12-09 10:24:00 America/New_York
   - use functional Mojo::JSON API
     the OO version was deprecated

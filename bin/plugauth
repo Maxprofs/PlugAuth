@@ -6,7 +6,7 @@ use FindBin;
 
 # PODNAME: plugauth
 # ABSTRACT: PlugAuth server
-our $VERSION = '0.27'; # VERSION
+our $VERSION = '0.28'; # VERSION
 
 
 use Clustericious::Commands;
@@ -14,7 +14,6 @@ use Clustericious::Commands;
 $ENV{MOJO_APP} ||= 'PlugAuth';
 
 Clustericious::Commands->start;
-
 __END__
 =pod
 
@@ -24,7 +23,7 @@ plugauth - PlugAuth server
 
 =head1 VERSION
 
-version 0.27
+version 0.28
 
 =head1 DESCRIPTION
 

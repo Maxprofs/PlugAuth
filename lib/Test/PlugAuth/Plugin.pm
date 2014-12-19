@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 # ABSTRACT: Private package for Test::PlugAUth::Plugin::* modules
-our $VERSION = '0.27'; # VERSION
+our $VERSION = '0.28'; # VERSION
 
 
 BEGIN {
@@ -18,7 +18,6 @@ BEGIN {
 }
 
 1;
-
 __END__
 =pod
 
@@ -28,7 +27,7 @@ Test::PlugAuth::Plugin - Private package for Test::PlugAUth::Plugin::* modules
 
 =head1 VERSION
 
-version 0.27
+version 0.28
 
 =head1 SEE ALSO
 

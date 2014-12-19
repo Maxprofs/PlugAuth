@@ -1,7 +1,7 @@
 package PlugAuth::Plugin::Test;
 
 # ABSTRACT: Test Plugin server
-our $VERSION = '0.27'; # VERSION
+our $VERSION = '0.28'; # VERSION
 
 use strict;
 use warnings;
@@ -116,7 +116,6 @@ sub real_authz
 }
 
 1;
-
 __END__
 =pod
 
@@ -126,7 +125,7 @@ PlugAuth::Plugin::Test - Test Plugin server
 
 =head1 VERSION
 
-version 0.27
+version 0.28
 
 =head1 AUTHOR
 

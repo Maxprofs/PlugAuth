@@ -6,7 +6,7 @@ use Role::Tiny;
 use List::MoreUtils qw( uniq );
 
 # ABSTRACT: Role for PlugAuth authorization plugins
-our $VERSION = '0.27'; # VERSION
+our $VERSION = '0.28'; # VERSION
 
 
 requires qw( 
@@ -71,7 +71,7 @@ PlugAuth::Role::Authz - Role for PlugAuth authorization plugins
 
 =head1 VERSION
 
-version 0.27
+version 0.28
 
 =head1 SYNOPSIS
 
@@ -193,6 +193,8 @@ given group.
 
 L<PlugAuth>,
 L<PlugAuth::Guide::Plugin>
+
+=cut
 
 =head1 AUTHOR
 
